@@ -1,0 +1,4 @@
+tsc &&
+pwd &&
+cp ./template/index.html ./build/template
+

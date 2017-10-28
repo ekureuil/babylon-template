@@ -1,0 +1,23 @@
+{
+  "name": "babylon-template",
+  "version": "0.0.1",
+  "description": "A template to create babylon applications",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./build/template",
+    "tsc": "./build_tsc",
+    "tscStart": "./build_tsc && electron ./build/template",
+    "clean" : "rm -rf ./build"
+  },
+  "repository": "https://github.com/ekureuil/babylon-template",
+  "keywords": [
+    "Electron",
+    "Babylon.js"
+  ],
+  "author": "eKuReUiL",
+  "license": "Unlicense",
+  "devDependencies": {
+    "electron": "~1.7.8",
+    "babylonjs": "^3.1.0-alpha3.6"
+  }
+}
